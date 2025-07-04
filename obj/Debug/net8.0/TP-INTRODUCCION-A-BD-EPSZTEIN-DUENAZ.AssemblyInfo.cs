@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5754a362516982cf007f8793abf26409edb9c589")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

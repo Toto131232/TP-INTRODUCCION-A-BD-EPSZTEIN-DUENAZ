@@ -1,3 +1,6 @@
+using Microsoft.Data.SqlClient;
+using Dapper;
+using System.Collections.Generic;
 public class Integrante
 {
     public static string NombreUsuarioOEmail{get; set;}
