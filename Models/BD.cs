@@ -16,4 +16,12 @@ public class BD
     }
     return integrante;
  }
+
+ public void AgregarIntegrante(string NombreUsuario,string email,string Password)
+ {
+    if()
+    {
+        
+    }
+ }
 }
