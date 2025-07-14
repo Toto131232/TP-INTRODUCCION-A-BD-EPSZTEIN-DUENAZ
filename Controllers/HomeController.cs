@@ -15,37 +15,29 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        string nombreusuario = HttpContext.Session.GetString("NombreDeUsuario");
+
+        if (!string.IsNullOrEmpty(nombreusuario))
+        {
+            var integrante = Integrante.BuscarXUsuar(nombreusuario);
+            return View(integrante);
+        }
+
+        return View(null); 
     }
     public IActionResult Iniciarsesion(string nombre, string contraseña)
     {
-        Integrante integrante = BD.LevantarIntegrantes(nombre, contraseña);
+         var integrante = Integrante.LevantarIntegrantes(nombre, contraseña);
+
         if (integrante != null)
         {
-            string integrante2 = Objeto.ObjectToString(integrante);
-            HttpContext.Session.SetString("integrante", integrante2);
-            string foto = "";
-            if (integrante.NombreUsuarioOEmail.ToLower().Contains("Toto"))
-                foto = "toto.png";
-            else if (integrante.NombreUsuarioOEmail.ToLower().Contains("Dudu"))
-                foto = "dudu.jpg";
-            else if (integrante.NombreUsuarioOEmail.ToLower().Contains("Dorin"))
-                foto = "dorin.jpg";
-            HttpContext.Session.SetString("foto", foto);
-            Integrante.Nombre = ViewBag.Integrante.CuadroDeFutbol;
-            Integrante.Nombre = ViewBag.Integrante.edad;
-            Integrante.Nombre = ViewBag.Integrante.Apellido;
-            Integrante.Nombre = ViewBag.Integrante.ComidaFavorita;
-            Integrante.Apellido = ViewBag.Integrante.Apellido;
-            Integrante.CuadroDeFutbol = ViewBag.Integrante.CuadrodeFutbol;
-            Integrante.ComidaFavorita = ViewBag.Integrante.ComidaFavorita;
-            Integrante.Edad = ViewBag.Integrante.Edad;
-            return View("Info");
-
+            HttpContext.Session.SetString("NombreDeUsuario", integrante.NombreUsuario);
+            return RedirectToAction();
         }
         else
         {
-            return View();
+            ViewBag.ErrorAlIniciarSesion = "Incorrecto";
+            return View("IniciarSesion");
         }
     }
 
@@ -58,7 +50,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Desloguear()
+    public IActionResult CerrarSesion()
     {
         HttpContext.Session.Clear();
         return View("Index");

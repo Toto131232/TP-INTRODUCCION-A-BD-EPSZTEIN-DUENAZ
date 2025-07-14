@@ -6,14 +6,8 @@ public class BD
 {
  private static string _connectionString = @"Server=localhost; Database=NombreBase;Integrated Security=True;TrustServerCertificate=True;";
 
-   public static Integrante LevantarIntegrantes(string nombre, string contraseña)
+   public static Integrante Conexion()
    {
-      Integrante integrante = null;
-      using (SqlConnection connection = new SqlConnection(_connectionString))
-      {
-         string query = "SELECT * FROM alumno";
-         integrante = connection.QueryFirstOrDefault<Integrante>(query, new { Nombre = nombre, Password = contraseña });
-      }
-      return integrante;
+      return new SqlConnection(_connectionString);
    }
 }
