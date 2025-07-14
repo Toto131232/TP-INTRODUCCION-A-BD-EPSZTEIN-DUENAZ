@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6w/ryRLaKvfXkKOqBvAarKGLjRzuCKHbti5MFUZftOk=",
+  "Hash": "h4c2SdF1jDP+V/oUOq/4yT/kakVhR6pqddGtXjUob0c=",
   "Source": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
   "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot",
       "Source": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\css\\site.css",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\favicon.ico",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,67 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\img\\dorin.jpg",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
+      "RelativePath": "img/dorin.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\dorin.jpg"
+    },
+    {
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\img\\dudu.jpg",
+      "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
+      "RelativePath": "img/dudu.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\dudu.jpg"
+    },
+    {
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\img\\toto.png",
+      "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
+      "RelativePath": "img/toto.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\toto.png"
+    },
+    {
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\js\\site.js",
+      "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -74,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -93,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -112,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -131,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -150,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -169,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -188,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -207,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -226,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -245,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -264,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -283,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\49194388\\Desktop\\AAA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
+      "ContentRoot": "D:\\Toto Usuario\\Escritorio\\AA\\TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ\\wwwroot\\",
       "BasePath": "_content/TP-INTRODUCCION-A-BD-EPSZTEIN-DUENAZ",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

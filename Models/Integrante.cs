@@ -3,7 +3,7 @@ using Dapper;
 using System.Collections.Generic;
 public class Integrante
 {
-    public static string NombreUsuarioOEmail{get; set;}
+    public string NombreUsuarioOEmail{get; set;}
     public static string Password{get; set;}
     public static string CuadroDeFutbol{get;set;}
     public static string ComidaFavorita{get;set;}

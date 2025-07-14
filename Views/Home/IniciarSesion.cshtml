@@ -1,0 +1,69 @@
+
+<style>.informacion {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.informacion h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.informacion ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.informacion li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.logout-form {
+  text-align: center;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}</style>@{
+    ViewData["Title"] = "Información";
+}
+
+<div class="informacion">
+    <h2>Informacion</h2>
+    @if (ViewBag.Foto != null)
+    {
+        <img src="/fotos/@ViewBag.Foto" alt="Foto del integrante" style="max-width:200px; border-radius:12px; margin-bottom:16px;" />
+    }
+    @if (ViewBag.Integrante != null)
+    {
+        <ul>
+            <li>Nombre: @ViewBag.Integrante.Nombre</li>
+            <li>Apellido: @ViewBag.Integrante.Apellido</li>
+            <li>Cuadro de futbol: @ViewBag.Integrante.CuadrodeFutbol</li>
+            <li>Comida favorita: @ViewBag.Integrante.ComidaFavorita</li>
+            <li>Edad: @ViewBag.Integrante.Edad</li>
+        </ul>
+    }
+    <form asp-action="Logout" asp-controller="Home" method="post" class="logout-form">
+        <button type="submit" class="logout-btn">Cerrar sesión</button>
+    </form>
+</div>
