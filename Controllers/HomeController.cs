@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using TP_INTRODUCCION_A_BD_EPSZTEIN_DUENAZ.Models;
+using Microsoft.Data.SqlClient;
+using Dapper;
 
 namespace TP_INTRODUCCION_A_BD_EPSZTEIN_DUENAZ.Controllers;
 
@@ -15,7 +17,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        string nombreusuario = HttpContext.Session.GetString("NombreDeUsuario");
+        string? nombreusuario = HttpContext.Session.GetString("NombreDeUsuario");
 
         if (!string.IsNullOrEmpty(nombreusuario))
         {
@@ -41,16 +43,7 @@ public class HomeController : Controller
         }
     }
 
-    public IActionResult Informacion()
-    {
-        string integrante2 = HttpContext.Session.GetString("integrante");
-        Integrante? integrante = Objeto.StringToObject<Integrante>(integrante2);
-        ViewBag.Integrante = integrante;
-        ViewBag.Foto = HttpContext.Session.GetString("foto");
-        return View();
-    }
-
-    public IActionResult CerrarSesion()
+    public IActionResult CerrarLaSesion()
     {
         HttpContext.Session.Clear();
         return View("Index");

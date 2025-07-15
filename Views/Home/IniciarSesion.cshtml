@@ -49,18 +49,14 @@
 
 <div class="informacion">
     <h2>Informacion</h2>
-    @if (ViewBag.Foto != null)
-    {
-        <img src="/fotos/@ViewBag.Foto" alt="Foto del integrante" style="max-width:200px; border-radius:12px; margin-bottom:16px;" />
-    }
-    @if (ViewBag.Integrante != null)
+    @if (Model.Integrante != null)
     {
         <ul>
-            <li>Nombre: @ViewBag.Integrante.Nombre</li>
-            <li>Apellido: @ViewBag.Integrante.Apellido</li>
-            <li>Cuadro de futbol: @ViewBag.Integrante.CuadrodeFutbol</li>
-            <li>Comida favorita: @ViewBag.Integrante.ComidaFavorita</li>
-            <li>Edad: @ViewBag.Integrante.Edad</li>
+            <li>Nombre: @Model.Nombre</li>
+            <li>Apellido: @Model.Apellido</li>
+            <li>Cuadro de futbol: @Model.CuadroDeFutbol</li>
+            <li>Comida favorita: @Model.ComidaFavorita</li>
+            <li>Edad: @Model.Edad</li>
         </ul>
     }
     <form asp-action="Logout" asp-controller="Home" method="post" class="logout-form">
